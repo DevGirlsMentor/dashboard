@@ -21,5 +21,3 @@ Figma do projeto completo: [DASHBOARD](https://www.figma.com/file/qZBVxW8qmygFJB
 ```
 
 Projeto desenvolvido em live coding, junto com a comunidade [Dev Girls Mentor](https://discord.com/invite/8m8ByW8raM). A comunidade foi criada com o intuito de ajudar mulheres a ingressarem na área de TI. Para participar entre no link citado a pouco.
-
-❤️
