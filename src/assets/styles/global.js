@@ -16,4 +16,13 @@ export const GlobalStyle = createGlobalStyle`
   p, button, b, strong, input, time {
     font-family: 'Roboto', sans-serif;
   }
+
+  main {
+    margin-left: 50px;
+
+    width: calc(100% - 50px);
+    height: calc(100vh - 56.91px);
+
+    padding: 1.87rem;
+  }
 `;
