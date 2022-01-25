@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${colors.pink};
   }
 
-  p, button, b, strong, input, time {
+  p, button, b, strong, input, time, h4 {
     font-family: 'Roboto', sans-serif;
   }
 
