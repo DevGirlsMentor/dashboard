@@ -6,4 +6,6 @@ export const colors = {
   pinkMedium: "#FB8694",
   white: "#FFF",
   black: "#333333",
+  blueTransparent: "rgba(4, 18, 88, 0.4)",
+  grey: "#919FB3",
 };

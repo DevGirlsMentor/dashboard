@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${colors.pink};
   }
 
-  p, button, b, strong, input, time, h4 {
+  p, button, b, strong, input, time, h4, label {
     font-family: 'Roboto', sans-serif;
   }
 
@@ -24,5 +24,10 @@ export const GlobalStyle = createGlobalStyle`
     height: calc(100vh - 56.91px);
 
     padding: 1.87rem;
+  }
+
+  .main-tasks {
+    display: flex;
+    column-gap: 2.31rem;
   }
 `;
