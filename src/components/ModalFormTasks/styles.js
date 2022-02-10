@@ -56,4 +56,8 @@ export const ContainerModalFormTasks = styled.form`
     bottom: 0;
     right: 0;
   }
+
+  button + button {
+    right: 8rem;
+  }
 `;
