@@ -16,11 +16,6 @@ export const ContainerCardsTasks = styled.div`
     font-weight: bold;
     margin-bottom: 0.62rem;
   }
-
-  p {
-    line-height: 0.87rem;
-    text-align: justify;
-  }
 `;
 
 export const FooterCards = styled.div`
@@ -46,4 +41,12 @@ export const ContainerAvatar = styled.div`
   color: ${colors.white};
   border-radius: 50px;
   margin-right: 1.2rem;
+
+  p {
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
 `;
