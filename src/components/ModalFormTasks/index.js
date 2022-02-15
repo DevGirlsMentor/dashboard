@@ -37,12 +37,12 @@ const ModalFormTasks = ({ onClose, defaultStatus, handleAddTask }) => {
         <div>
           <label>
             Date
-            <input onChange={e => setDate(e.currentTarget.value)} />
+            <input type="date" onChange={e => setDate(e.currentTarget.value)} />
           </label>
 
           <label>
             Hour
-            <input onChange={e => setHour(e.currentTarget.value)} />
+            <input type="time" onChange={e => setHour(e.currentTarget.value)} />
           </label>
         </div>
 

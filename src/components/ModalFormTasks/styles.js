@@ -34,6 +34,11 @@ export const ContainerModalFormTasks = styled.form`
 
       height: 2rem;
     }
+
+    input[type=time],
+    input[type=date] {
+      padding-left: 5px;
+    }
   }
 
   button {
