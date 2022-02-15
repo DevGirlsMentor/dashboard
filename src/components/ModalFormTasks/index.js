@@ -11,14 +11,19 @@ const ModalFormTasks = ({ onClose, defaultStatus, handleAddTask }) => {
   const [status, setStatus] = useState(defaultStatus)
 
   function handleSaveTask() {
-    handleAddTask({
-      title,
-      description,
-      date,
-      hour,
-      responsable,
-      status,
-    })
+    if ( title && description && date && hour && responsable && status) {
+      handleAddTask({
+        title,
+        description,
+        date,
+        hour,
+        responsable,
+        status,
+      })
+      onClose()
+    } else {
+      alert('Preencha todos os campos.')
+    }
   }
 
   return (
