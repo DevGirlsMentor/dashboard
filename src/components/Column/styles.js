@@ -37,6 +37,10 @@ export const ContainerColumn = styled.div`
 
     cursor: pointer;
   }
+
+  div + div  {
+    margin-top: 1rem;
+  }
 `;
 
 export const HeaderColumn = styled.div`

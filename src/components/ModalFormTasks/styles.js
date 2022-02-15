@@ -37,7 +37,7 @@ export const ContainerModalFormTasks = styled.form`
 
     input[type=time],
     input[type=date] {
-      padding-left: 5px;
+      padding-left: 0.5rem;
     }
   }
 
