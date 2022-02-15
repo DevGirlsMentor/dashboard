@@ -11,11 +11,12 @@ const ModalFormTasks = ({ onClose, defaultStatus, handleAddTask }) => {
   const [status, setStatus] = useState(defaultStatus)
 
   function handleSaveTask() {
-    if ( title && description && date && hour && responsable && status) {
+    if (title && description && date && hour && responsable && status) {
+      const formatedDate = new Intl.DateTimeFormat('pt-BR', { timeZone: 'UTC' }).format(new Date(date)) 
       handleAddTask({
         title,
         description,
-        date,
+        date: formatedDate,
         hour,
         responsable,
         status,
