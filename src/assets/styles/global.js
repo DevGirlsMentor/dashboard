@@ -30,4 +30,9 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     column-gap: 2.31rem;
   }
+
+  .main-events {
+    display: flex;
+    column-gap: 2.31rem;
+  }
 `;
