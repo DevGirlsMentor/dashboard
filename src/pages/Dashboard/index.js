@@ -4,6 +4,8 @@ import IconTodo from "../../assets/images/icon-todo.png";
 import IconInProgress from "../../assets/images/icon-progress.png";
 import IconDone from "../../assets/images/icon-done.png";
 import CardStatusList from "../../components/CardStatusList";
+import ListInProgress from "../../components/ListInProgress";
+import EventsListByPeriod from "../../components/EventsListByPeriod";
 
 export const Dashboard = () => {
   return (
@@ -15,6 +17,11 @@ export const Dashboard = () => {
         <CardStatusTotal theme="green" total={12} name="Done this week" icon={IconDone} />
         <CardStatusTotal theme="green" total={12} name="Done this month" icon={IconDone} />
       </CardStatusList>
+
+      <div className="lists">
+        <ListInProgress />
+        <EventsListByPeriod />
+      </div>
     </div>
   )
 };

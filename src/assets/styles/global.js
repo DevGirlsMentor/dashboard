@@ -35,4 +35,15 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     column-gap: 2.31rem;
   }
+
+  .main-dashboard {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2.31rem;
+
+    .lists {
+      display: flex;
+      column-gap: 2.31rem;
+    }
+  }
 `;
